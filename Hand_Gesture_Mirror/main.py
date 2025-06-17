@@ -3,8 +3,8 @@ import numpy as np
 from video_stream import VideoStream
 from utils import detect_and_classify, get_edge_hand, draw_box
 
-vs1 = VideoStream('http://192.168.0.114:4747/video').start()
-vs2 = VideoStream('http://192.168.0.177:4747/video').start()
+vs1 = VideoStream('URL1').start()
+vs2 = VideoStream('URL2').start()
 #vs1 = VideoStream(1).start()
 
 while True:
